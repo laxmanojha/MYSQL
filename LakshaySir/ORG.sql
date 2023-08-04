@@ -61,3 +61,5 @@ INSERT INTO Title
  (006, 'Lead', '2016-06-11 00:00:00'),
  (003, 'Lead', '2016-06-11 00:00:00');
  
+ -- Question  1 
+ Select FIRST_NAME AS WORKER_NAME FROM Worker;
