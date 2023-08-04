@@ -63,3 +63,6 @@ INSERT INTO Title
  
  -- Question  1 
  Select FIRST_NAME AS WORKER_NAME FROM Worker;
+ 
+ -- Question 2
+ Select UPPER(FIRST_NAME) FROM Worker;
