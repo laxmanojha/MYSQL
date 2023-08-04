@@ -75,3 +75,9 @@ INSERT INTO Title
  -- Question 4
  Select substr(first_name from 1 for 3) from worker;
  select substring(first_name, 1, 3) from worker;
+ 
+  -- Question 5 
+ Select position('b' in First_name) AS "b's Position" from worker 
+ where first_name = "Amitabh";
+ Select position('b' in 'Amitabh');
+ Select instr('amitabh','b');
