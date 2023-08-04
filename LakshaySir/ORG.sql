@@ -66,3 +66,8 @@ INSERT INTO Title
  
  -- Question 2
  Select UPPER(FIRST_NAME) FROM Worker;
+ 
+ -- Question 3
+ Select distinct DEPARTMENT FROM WORKER;
+ Select Department from worker
+ group by department;
