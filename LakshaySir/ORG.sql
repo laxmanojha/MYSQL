@@ -71,3 +71,7 @@ INSERT INTO Title
  Select distinct DEPARTMENT FROM WORKER;
  Select Department from worker
  group by department;
+ 
+ -- Question 4
+ Select substr(first_name from 1 for 3) from worker;
+ select substring(first_name, 1, 3) from worker;
