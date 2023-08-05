@@ -129,3 +129,7 @@ INSERT INTO Title
  -- Question 17
  Select * from worker 
  where first_name like '%a';
+ 
+ -- Question 18
+ Select * from worker  
+ where first_name Like '%h' AND length(first_name) = 6;
