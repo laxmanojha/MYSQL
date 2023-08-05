@@ -84,3 +84,6 @@ INSERT INTO Title
  
  -- Question 6
  Select rtrim(first_name) from worker;
+ 
+ -- Question 7
+ Select ltrim(first_name) from worker;
