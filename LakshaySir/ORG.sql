@@ -98,3 +98,7 @@ INSERT INTO Title
  
  -- Question 10
  Select concat(First_name,' ',Last_name) AS Complete_name from worker;
+ 
+ -- Question 11 
+ Select * from worker 
+ order by first_name;
