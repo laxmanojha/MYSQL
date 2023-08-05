@@ -81,3 +81,6 @@ INSERT INTO Title
  where first_name = "Amitabh";
  Select position('b' in 'Amitabh');
  Select instr('amitabh','b');
+ 
+ -- Question 6
+ Select rtrim(first_name) from worker;
