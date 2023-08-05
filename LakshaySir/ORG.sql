@@ -116,3 +116,7 @@ INSERT INTO Title
  Select * from worker
  -- where first_name Not in("vipul","satish");
  where first_name <> "vipul" or first_name <> 'satish';
+ 
+ -- Question 15
+ Select * from worker 
+ where department like 'admin%';
