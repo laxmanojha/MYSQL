@@ -125,3 +125,7 @@ INSERT INTO Title
  select * from worker 
  -- where position('a' in first_name) <> 0;
  where first_name like '%a%';
+ 
+ -- Question 17
+ Select * from worker 
+ where first_name like '%a';
