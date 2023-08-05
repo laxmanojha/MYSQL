@@ -102,3 +102,7 @@ INSERT INTO Title
  -- Question 11 
  Select * from worker 
  order by first_name;
+ 
+ -- Question 12
+ Select * from worker
+ order by first_name, department desc;
