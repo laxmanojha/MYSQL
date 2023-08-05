@@ -87,3 +87,8 @@ INSERT INTO Title
  
  -- Question 7
  Select ltrim(first_name) from worker;
+ 
+ -- Question 8
+ -- putting the distinct after length is invalid 
+ Select distinct department, length( Department ) from worker 
+ group by department;
