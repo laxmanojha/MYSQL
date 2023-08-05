@@ -92,3 +92,6 @@ INSERT INTO Title
  -- putting the distinct after length is invalid 
  Select distinct department, length( Department ) from worker 
  group by department;
+ 
+ -- Question 9
+ Select replace(first_name,'a','A') from worker;
