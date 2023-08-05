@@ -106,3 +106,13 @@ INSERT INTO Title
  -- Question 12
  Select * from worker
  order by first_name, department desc;
+ 
+ -- Question 13
+ Select * from worker
+ -- where first_name IN ("Vipul", "satish");
+ where first_name = "vipul" or first_name = "satish";
+ 
+ -- Question 14
+ Select * from worker
+ -- where first_name Not in("vipul","satish");
+ where first_name <> "vipul" or first_name <> 'satish';
