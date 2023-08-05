@@ -95,3 +95,6 @@ INSERT INTO Title
  
  -- Question 9
  Select replace(first_name,'a','A') from worker;
+ 
+ -- Question 10
+ Select concat(First_name,' ',Last_name) AS Complete_name from worker;
