@@ -120,3 +120,8 @@ INSERT INTO Title
  -- Question 15
  Select * from worker 
  where department like 'admin%';
+ 
+ -- Question 16
+ select * from worker 
+ -- where position('a' in first_name) <> 0;
+ where first_name like '%a%';
