@@ -179,3 +179,6 @@ select * from bonus;
  Create table worker_clone like worker;
  insert into worker_clone select * from worker;
  select * from worker_clone;
+ 
+ -- Question 29
+ Select worker.* from worker inner join worker_clone using(worker_id);
