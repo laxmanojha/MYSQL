@@ -138,3 +138,31 @@ INSERT INTO Title
  -- Question 19
  Select * from worker
  where salary between 100000 AND 500000;
+ 
+ -- Question 20
+ Select * from worker
+ where year(joining_date) = 2014 AND month(joining_date) = 02;
+ -- where joining_date like '2014-02%';
+ 
+ -- Question 21
+ Select department,Count(*) from worker 
+ where department = 'Admin';
+ 
+ -- Question 22
+ Select concat(first_name,' ', last_name) AS 'FULL NAME' from worker
+ where salary BETWEEN 50000 AND 100000;
+ 
+ -- Question 23
+ Select department, count(worker_id) as count from worker
+ group by department
+ order by count(department) desc;
+ 
+ -- Question 24
+show tables;
+select * from bonus;
+ Select w.*,t.worker_title,t.affected_from from Worker w inner join Title t on w.worker_id = t.worker_ref_id where t.worker_title = 'manager';
+ 
+ -- Question 25
+ Select Worker_Title, count(worker_title) AS Title_Count from title
+ group by Worker_title
+ having Title_Count > 1;
