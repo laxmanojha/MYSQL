@@ -174,3 +174,6 @@ select * from bonus;
  -- Question 27
  Select * from worker
  where worker_id%2 = 0;
+ 
+ -- Question 28
+ Create table worker_clone like worker;
