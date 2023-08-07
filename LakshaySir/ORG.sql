@@ -177,3 +177,5 @@ select * from bonus;
  
  -- Question 28
  Create table worker_clone like worker;
+ insert into worker_clone select * from worker;
+ select * from worker_clone;
