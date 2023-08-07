@@ -134,3 +134,7 @@ INSERT INTO Title
  Select * from worker  
  -- where first_name Like '%h' AND length(first_name) = 6;
  where first_name like '_____h';
+ 
+ -- Question 19
+ Select * from worker
+ where salary between 100000 AND 500000;
