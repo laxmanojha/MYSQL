@@ -166,3 +166,11 @@ select * from bonus;
  Select Worker_Title, count(worker_title) AS Title_Count from title
  group by Worker_title
  having Title_Count > 1;
+ 
+ -- Question 26
+ Select * from worker
+ where mod(worker_id,2) <> 0;
+ 
+ -- Question 27
+ Select * from worker
+ where worker_id%2 = 0;
